@@ -45,6 +45,10 @@ console.log(person.name); // John
 person.age = 30;
 console.log(person.age);  // 30
 
+const student = new Student("Chetna")
+student.study()
+
+
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
